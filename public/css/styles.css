@@ -1,0 +1,8 @@
+.titlebar {
+    background-color: rgb(10, 22, 99);
+    position: inherit;
+}
+
+#title {
+    color: azure;
+}
