@@ -35,6 +35,12 @@ app.get("/byer", function(req, res) {
 
 })
 
+app.get("/Log_Sign", function(req, res) {
+
+    res.render("Log_sign");
+
+})
+
 app.post("/", function(req, res) {
 
 
