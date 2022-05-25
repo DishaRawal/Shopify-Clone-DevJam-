@@ -1,0 +1,278 @@
+<%- include('header') -%>
+
+<div class="text-center center-div mt-5" id="login">
+    <div class="container w-25 border py-5 mt-5">
+        <h3>Welcome to Webify Dashboard</h3>
+        <h5><%= locals.user ? user : "User" %></h5>
+        <a href="/route/logout">Logout</a>
+    </div>
+</div>
+
+
+    <h1>SELLER </h1>
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <!-- Bootstrap CSS -->
+        <link href="css/styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <title>Sample Website Input</title>
+    </head>
+
+    <body>
+
+
+
+        <!-- <nav class="navbar navbar-dark navbar-expand-sm bg--primary fixed-top">
+            <div class="container">
+                <a class="navbar-brand mr-auto" href="#">WEBIFY</a>
+
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item "><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="buyer.html">Buyer</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./seller.html">Seller</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+            <span class="navbar-toggler-icon"></span>
+           
+        </button>
+        </nav> -->
+        </div>
+
+
+
+        <div class="container">
+            <div class="row row-content">
+                <div class="col-sm-12">
+
+                    <form>
+                        <div class="form-group row">
+                            <label for="webname" class="col-md-2 col-form-label">Website Name</label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" id="webname" name="website name" placeholder="Website Name">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="tagline" class="col-md-2 col-form-label">Tag Line</label>
+                            <div class="col-md-10">
+                                <input type="text" class="form-control" id="tagline" name="tagline" placeholder="Tag Line">
+                            </div>
+                        </div>
+                        <!-----------Highlighted Product Inputs----------->
+                        <h2>Upload your four best seller products here</h2>
+                        <h3>Product-1</h3>
+                        <div class="form-group">
+                            <label for="product1">Upload Image</label>
+                            <input type="file" class="form-control-file" id="product1">
+                        </div>
+                        <div class="form-group">
+                            <label for="product1name">Name of product</label>
+                            <input type="text" class="form-control" id="product1name" placeholder="Product Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="product1description">Enter some description</label>
+                            <textarea class="form-control" id="product1description" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="product1price">Enter Price</label>
+                            <input type="number" class="form-control" id="product1price" placeholder="123">
+                        </div>
+
+                        <h3>Product-2</h3>
+                        <div class="form-group">
+                            <label for="product2">Upload Image</label>
+                            <input type="file" class="form-control-file" id="product2">
+                        </div>
+                        <div class="form-group">
+                            <label for="product2name">Name of product</label>
+                            <input type="text" class="form-control" id="product2name" placeholder="Product Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="product2description">Enter some description</label>
+                            <textarea class="form-control" id="product2description" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="product2price">Enter Price</label>
+                            <input type="number" class="form-control" id="product2price" placeholder="123">
+                        </div>
+
+                        <h3>Product-3</h3>
+                        <div class="form-group">
+                            <label for="product3">Upload Image</label>
+                            <input type="file" class="form-control-file" id="product3">
+                        </div>
+                        <div class="form-group">
+                            <label for="product3name">Name of product</label>
+                            <input type="text" class="form-control" id="product3name" placeholder="Product Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="product3description">Enter some description</label>
+                            <textarea class="form-control" id="product3description" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="product3price">Enter Price</label>
+                            <input type="number" class="form-control" id="product3price" placeholder="123">
+                        </div>
+
+                        <h3>Product-4</h3>
+                        <div class="form-group">
+                            <label for="product4">Upload Image</label>
+                            <input type="file" class="form-control-file" id="product4">
+                        </div>
+                        <div class="form-group">
+                            <label for="product4name">Name of product</label>
+                            <input type="text" class="form-control" id="product4name" placeholder="Product Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="product4description">Enter some description</label>
+                            <textarea class="form-control" id="product4description" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="product4price">Enter Price</label>
+                            <input type="number" class="form-control" id="product4price" placeholder="123">
+                        </div>
+                        <!--------------All Product Inputs-->
+                        <h2>Upload all your products here</h2>
+                        <h3>Product-1</h3>
+                        <div class="form-group">
+                            <label for="productall1">Upload Image</label>
+                            <input type="file" class="form-control-file" id="productall1">
+                        </div>
+                        <div class="form-group">
+                            <label for="productall1name">Name of product</label>
+                            <input type="text" class="form-control" id="productall1name" placeholder="Product Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="productall1description">Enter some description</label>
+                            <textarea class="form-control" id="productall1description" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="productall1price">Enter Price</label>
+                            <input type="number" class="form-control" id="productall1price" placeholder="123">
+                        </div>
+                        <h3>Product-2</h3>
+                        <div class="form-group">
+                            <label for="productall2">Upload Image</label>
+                            <input type="file" class="form-control-file" id="productall2">
+                        </div>
+                        <div class="form-group">
+                            <label for="productall2name">Name of product</label>
+                            <input type="text" class="form-control" id="productall2name" placeholder="Product Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="productall2description">Enter some description</label>
+                            <textarea class="form-control" id="productall2description" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="productall2price">Enter Price</label>
+                            <input type="number" class="form-control" id="productall2price" placeholder="123">
+                        </div>
+                        <h3>Product-3</h3>
+                        <div class="form-group">
+                            <label for="productall3">Upload Image</label>
+                            <input type="file" class="form-control-file" id="productall3">
+                        </div>
+                        <div class="form-group">
+                            <label for="productall3name">Name of product</label>
+                            <input type="text" class="form-control" id="productall3name" placeholder="Product Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="productall3description">Enter some description</label>
+                            <textarea class="form-control" id="productall3description" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="productall3price">Enter Price</label>
+                            <input type="number" class="form-control" id="productall3price" placeholder="123">
+                        </div>
+                        <!----------Reviews Input---------------------->
+                        <h2>Enter the details of reviews on your product</h2>
+                        <h3>Review 1</h3>
+                        <div class="form-group">
+                            <label for="review1">Enter Name of the reviewer</label>
+                            <input class="text" class="form-control" id="review1name" placeholder="Name of the reviewer">
+                        </div>
+                        <div class="form-group">
+                            <label for="review1place">Enter state</label>
+                            <input class="text" class="form-control" id="review1place" placeholder="State">
+                        </div>
+                        <div class="form-group">
+                            <label for="review1des">Enter the review</label>
+                            <textarea class="form-control" id="review1des" placeholder="review" rows="3"></textarea>
+                        </div>
+                        <h3>Review 2</h3>
+                        <div class="form-group">
+                            <label for="review2">Enter Name of the reviewer</label>
+                            <input class="text" class="form-control" id="review2name" placeholder="Name of the reviewer">
+                        </div>
+                        <div class="form-group">
+                            <label for="review2place">Enter state</label>
+                            <input class="text" class="form-control" id="review2place" placeholder="State">
+                        </div>
+                        <div class="form-group">
+                            <label for="review2des">Enter the review</label>
+                            <textarea class="form-control" id="review2des" placeholder="review" rows="3"></textarea>
+                        </div>
+                        <h3>Review 3</h3>
+                        <div class="form-group">
+                            <label for="review3">Enter Name of the reviewer</label>
+                            <input class="text" class="form-control" id="review3name" placeholder="Name of the reviewer">
+                        </div>
+                        <div class="form-group">
+                            <label for="review3place">Enter state</label>
+                            <input class="text" class="form-control" id="review3place" placeholder="State">
+                        </div>
+                        <div class="form-group">
+                            <label for="review3des">Enter the review</label>
+                            <textarea class="form-control" id="review3des" placeholder="review" rows="3"></textarea>
+                        </div>
+                        <div class="form-group row">
+                            <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
+                            <div class="col-5 col-md-3">
+                                <input type="tel" class="form-control" id="area code" name="area code" placeholder="area code">
+                            </div>
+                            <div class="col-7 col-md-7">
+                                <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="emailid" class="col-md-2 col-form-label">Email</label>
+                            <div class="col-md-10">
+                                <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+                            </div>
+                        </div>
+
+
+                        <div class="form-group row">
+                            <div class="offset-md-2 col-md-10">
+                                <a role="button" class="btn btn-primary btn-lg" href="/byer" target="blank"><i class="sampleweb"></i> SUBMIT</a>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+
+        </footer>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+
+
+    </html>
+
+<%- include('footer') -%>

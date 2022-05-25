@@ -1,0 +1,147 @@
+        /* .row-header {
+    margin: 0px auto;
+    padding: 0px;
+} */
+        /* .row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+} */
+        /* .footer {
+    background-color: #c2b3dd;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+} */
+        
+        .jumbotron {
+            padding: 70px 30px 70px 30px;
+            margin: 0px auto;
+            background: rgb(196, 226, 228) !important;
+            color: rgb(10, 7, 1);
+            margin-bottom: 50px;
+            background: url('public\images\webi2.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        /* address {
+            font-size: 80%;
+            margin: 0px;
+            color: #0f0f0f;
+        } */
+        
+        */
+        /* body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+} */
+        /* .navbar-dark {
+    background-color: rgb(10, 22, 99);
+} */
+        /* LS css */
+        
+        .big-heading {
+            font-family: 'Martel', serif;
+            /* font-family: "Montserrat-Black"; */
+            font-size: 3.5rem;
+            line-height: 1.5;
+        }
+        
+        .section-heading {
+            font-size: 3rem;
+            line-height: 1.5;
+        }
+        
+        .title-image {
+            width: 100%;
+            opacity: 50%;
+            width: 600px;
+            height: 400px;
+            margin-right: 100px;
+            margin-left: 0%;
+            padding-top: 0%;
+        }
+        
+        */ .download-button {
+            margin: 5% 3% 5% 0;
+        }
+        
+        #title .container-fluid {
+            padding: 3% 15% 7%;
+        }
+        
+        .colored-section {
+            background-color: #216ec7;
+            max-height: fit-content;
+            /* color: #fff; */
+        }
+        
+        .download-button {
+            margin: 5% 3% 5% 0;
+        }
+        
+        .col-lg-6 {
+            padding: 50px;
+        }
+        /* .container-fluid {
+            padding: 7% 15%;
+        } */
+        /* Features Section */
+        
+        .white-section {
+            background-color: rgb(219, 233, 228);
+        }
+        
+        #features {
+            position: relative;
+        }
+        
+        .feature-title {
+            font-size: 1.5rem;
+        }
+        
+        .feature-box {
+            padding: 4.5%;
+        }
+        
+        .icon {
+            color: #5abee8;
+            margin-bottom: 1rem;
+        }
+        
+        .icon:hover {
+            color: #2f16d2;
+        }
+        
+        #buyertext {
+            font-size: 24px;
+            /* font-family: 'Lora', serif; */
+            font-family: 'IBM Plex Serif', serif;
+        }
+        
+        #sellertext {
+            font-size: 24px;
+            /* font-family: 'Lora', serif; */
+            font-family: 'IBM Plex Serif', serif;
+        }
+        
+        .contain {
+            /* margin-top: 50px; */
+        }
+        
+        #webify {
+            font-family: 'Anton', sans-serif;
+        }
+        
+        #cont {
+            font-family: 'Martel', sans-serif;
+        }
+
+        .container-fluid{
+            margin-bottom: 50px;
+            margin-top: 50px;
+        }
+
+        h2{
+            font-weight: 100;
+        }

@@ -11,6 +11,35 @@ app.use(express.static("public"));
 
 app.set('view engine', 'ejs');
 
+
+
+//login code
+const path = require('path');
+const session = require("express-session");
+const { v4: uuidv4 } = require("uuid");
+
+
+const router = require('./router');
+
+app.use('/static', express.static(path.join(__dirname, 'public')))
+app.use('/assets', express.static(path.join(__dirname, 'public/assets')))
+
+app.use(session({
+    secret: uuidv4(), //  '1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed'
+    resave: false,
+    saveUninitialized: true
+}));
+
+app.use('/route', router);
+
+app.get("/base", function(req, res) {
+
+    res.render("base", { title : "Login System"});
+
+})
+
+//login code ends
+
 app.get("/", function(req, res) {
 
     res.render("home");
@@ -41,10 +70,26 @@ app.get("/Log_Sign", function(req, res) {
 
 })
 
+app.get("/login", function(req, res) {
+
+    res.render("login" , { title : "Login System"});
+
+})
+
+app.get("/signup", function(req, res) {
+
+    res.render("signup");
+
+})
+
+
 app.post("/", function(req, res) {
 
 
 })
+
+
+
 
 app.listen(3000, function() {
     console.log("Server started on port 3000");
