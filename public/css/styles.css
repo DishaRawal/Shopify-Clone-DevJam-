@@ -20,6 +20,20 @@
     min-height: 400px;
 } */
 
+li{
+    display: inline;
+    float: right;
+    color: aquamarine;
+}
+
+   
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+
 .footer {
     background-color: #c2b3dd;
     margin: 0px auto;
@@ -30,7 +44,8 @@
 .jumbotron {
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
-    background: #183db6 !important;
+    /* background: #183db6 !important; */
+    background: rgb(22, 113, 119) !important;
     color: floralwhite;
 }
 

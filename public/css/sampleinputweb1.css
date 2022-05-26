@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+}
+#body{
+    background-image: linear-gradient(to right,aqua,rgba(243, 255, 8, 0.885));
+    /* background-color: rgba(255, 171, 16, 0.745); */
+    /* background-image: url("/public/images/webify_logo.png");
+    background-size: cover; */
+    /* background-repeat: no-repeat; */
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background:rgb(23, 29, 57); */
+    background-color:rgba(0, 0, 0, 0.845);
+    padding: 20px 80px;
+    position:sticky;
+}
+#header a{
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+    font-size: 50px;
+    font-weight: 900;
+}
+#header a img{
+    padding-right: 15px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
+    position:sticky;
+    z-index: 100;
+}
+#navbar li{
+    list-style: none;
+    padding:0px 20px;
+    position: relative;
+}
+#navbar li a{
+    justify-content: space-between;
+    text-decoration: none;
+    color: rgb(228, 229, 234);
+    font-size: 22px;
+    font-weight: 600;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: orange;
+}
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background:orange ;
+    position: absolute;
+    bottom: -4px;
+    left:20px;
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.845);
+    color: azure;
+}
+.list-unstyled li a{
+    color: azure;
+}
+.list-unstyled li a:hover{
+    color: orange;
+}
+.col-7 col-sm-5 i{
+    margin-top: 20px;
+    padding:2px;
+}
+.text-center a{
+    color: azure;
+}
+.text-center a:hover{
+      color:orange;
+}

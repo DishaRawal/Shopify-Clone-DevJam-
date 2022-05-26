@@ -15,10 +15,21 @@
     padding: 20px 0px 20px 0px;
 } */
         
+<<<<<<< HEAD
        
         .section{
             background-color: black;
             background: url(../images/black-friday-elements-assortment.jpg);  
+=======
+        .jumbotron {
+            padding: 70px 30px 70px 30px;
+            margin: 0px auto;
+            background: rgb(22, 113, 119) !important;
+            color: rgb(10, 7, 1);
+            margin-bottom: 50px;
+            
+            background-image: url(/images/webify.jpg);
+>>>>>>> c68a6c3 (finalcmt)
             background-repeat: no-repeat;
            
             background-size: cover;
@@ -27,13 +38,25 @@
           
            color : wheat;
         }
+/* 
+        #banner{
+            background-image: url(/images/webify.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        } */
+
+
         /* address {
             font-size: 80%;
             margin: 0px;
             color: #0f0f0f;
         } */
         
+<<<<<<< HEAD
        
+=======
+        
+>>>>>>> c68a6c3 (finalcmt)
         /* body {
     padding: 50px 0px 0px 0px;
     z-index: 0;
@@ -43,6 +66,7 @@
 } */
         /* LS css */
         
+<<<<<<< HEAD
         .big-heading
         {
             font-family: "Montserrat-Black";
@@ -59,6 +83,19 @@
             color:#000000;
             text-align: center;
             font-weight: 300;
+=======
+        .big-heading {
+            /* font-family: 'Martel', serif; */
+            font-family: "Montserrat-Black";
+            font-size: 3.0rem;
+            line-height: 1.5;
+            padding-bottom: 20px;
+        }
+
+        #textpart{
+            padding-top: 20px;
+            margin-top: 20px;
+>>>>>>> c68a6c3 (finalcmt)
         }
         
         .section-heading {
@@ -79,7 +116,7 @@
         }
         .title-image {
             width: 100%;
-            opacity: 50%;
+            opacity: 60%;
             width: 600px;
             height: 400px;
             margin-right: 100px;
@@ -87,18 +124,23 @@
             padding-top: 0%;
         }
         
-        */ .download-button {
+        /* .download-button {
             margin: 5% 3% 5% 0;
-        }
+        } */
         
+
         #title .container-fluid {
             padding: 3% 15% 7%;
         }
-        
+        /*  */
         .colored-section {
             background-color: #216ec7;
             max-height: fit-content;
             /* color: #fff; */
+
+            background-image: url(/images/webifyhome4.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
         }
         .card-image-top
         {
@@ -110,8 +152,11 @@
         }
         
         .col-lg-6 {
-            padding: 50px;
+            /* padding: 50px; */
+            font-family: "Montserrat";
+           text-align: center;
         }
+<<<<<<< HEAD
         .media{
             padding-top: 20px;
             padding-bottom: 30px;
@@ -135,14 +180,35 @@
        }
           
         /* .container-fluid {
+=======
+
+        
+        .container-fluid {
+>>>>>>> c68a6c3 (finalcmt)
             padding: 7% 15%;
-        } */
+           
+        }
         /* Features Section */
         
         .white-section {
+<<<<<<< HEAD
             background-color :rgb(245, 164, 66);
+=======
+           
+           margin: 30px;
+           padding: 0px;
+           height: 350px;
+>>>>>>> c68a6c3 (finalcmt)
         }
-        
+        .tables{
+            background-color: rgb(219, 233, 228);
+          padding-left: 30px;
+        }
+
+        .sec2{
+            /* background: rgb(22, 113, 119) !important; */
+        }
+
         #features {
             position:relative;
         }
@@ -194,11 +260,37 @@
             font-family: 'Martel', sans-serif;
         }
 
-        .container-fluid{
-            margin-bottom: 50px;
-            margin-top: 50px;
-        }
 
         h2{
             font-weight: 100;
+        }
+
+        a{
+            margin-right: 0%;
+            padding: 0%;
+            color: black;
+        }
+
+        #sec2{
+            margin: 100px;
+        }
+
+        #webify{
+            padding: 20px;
+            font-size: 150px;
+            margin-top: 30px;
+          
+        }
+
+        #cont{
+            padding: 20px;
+            font-size: 30px;
+            color: aliceblue;
+        }
+
+        #bannerimg{
+            width: 360px;
+            height: 300px;
+            margin-left: 50px;
+            padding-left: 100px;
         }

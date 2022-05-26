@@ -6,6 +6,8 @@ const ejs = require("ejs");
 
 const app = express();
 
+let posts = [];
+
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
@@ -40,6 +42,8 @@ app.get("/base", function(req, res) {
 
 //login code ends
 
+
+
 app.get("/", function(req, res) {
 
     res.render("home");
@@ -60,8 +64,8 @@ app.get("/contact", function(req, res) {
 
 app.get("/byer", function(req, res) {
 
-    res.render("byer");
-
+    res.render("byer", {posts: posts });
+    console.log(posts);
 })
 
 app.get("/Log_Sign", function(req, res) {
@@ -83,8 +87,13 @@ app.get("/signup", function(req, res) {
 })
 
 
-app.post("/", function(req, res) {
-
+app.post("/byer", function(req, res) {
+  const post ={
+      name:req.body.webname,
+      tagline: req.body.tagline
+  };
+  posts.push(post);
+  res.redirect("/byer");
 
 })
 
