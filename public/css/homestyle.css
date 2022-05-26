@@ -1,4 +1,5 @@
-        /* .row-header {
+      
+      /* .row-header {
     margin: 0px auto;
     padding: 0px;
 } */
@@ -14,15 +15,17 @@
     padding: 20px 0px 20px 0px;
 } */
         
-        .jumbotron {
-            padding: 70px 30px 70px 30px;
-            margin: 0px auto;
-            background: rgb(196, 226, 228) !important;
-            color: rgb(10, 7, 1);
-            margin-bottom: 50px;
-            background: url('public\images\webi2.jpg');
+       
+        .section{
+            background-color: black;
+            background: url(../images/black-friday-elements-assortment.jpg);  
             background-repeat: no-repeat;
+           
             background-size: cover;
+           
+          
+           background-repeat: no-repeat;
+           color : wheat;
         }
         /* address {
             font-size: 80%;
@@ -30,7 +33,7 @@
             color: #0f0f0f;
         } */
         
-        */
+       
         /* body {
     padding: 50px 0px 0px 0px;
     z-index: 0;
@@ -40,18 +43,40 @@
 } */
         /* LS css */
         
-        .big-heading {
-            font-family: 'Martel', serif;
-            /* font-family: "Montserrat-Black"; */
-            font-size: 3.5rem;
+        .big-heading
+        {
+            font-family: "Montserrat-Black";
+            font-size: 10rem;
             line-height: 1.5;
+            color:#000000;
+            font-weight: 1000;
+            text-align: center;
+          
+        }
+        .para
+        {
+            font-family: monospace;
+            color:#000000;
+            text-align: center;
+            font-weight: 300;
         }
         
         .section-heading {
             font-size: 3rem;
             line-height: 1.5;
         }
-        
+        .intro-header
+        {
+            background-color: #140670;
+            color:#ffffff;
+        }
+        .para-intro
+        {
+            font-family: monospace;
+            color:#ffffff;
+            text-align: center;
+            font-weight: 300;
+        }
         .title-image {
             width: 100%;
             opacity: 50%;
@@ -75,7 +100,11 @@
             max-height: fit-content;
             /* color: #fff; */
         }
-        
+        .card-image-top
+        {
+            height: 20px;
+            width: 40%;
+        }
         .download-button {
             margin: 5% 3% 5% 0;
         }
@@ -114,13 +143,13 @@
         }
         
         #buyertext {
-            font-size: 24px;
+            font-size: 17px;
             /* font-family: 'Lora', serif; */
             font-family: 'IBM Plex Serif', serif;
         }
         
         #sellertext {
-            font-size: 24px;
+            font-size: 17px;
             /* font-family: 'Lora', serif; */
             font-family: 'IBM Plex Serif', serif;
         }
