@@ -112,21 +112,47 @@
         .col-lg-6 {
             padding: 50px;
         }
+        .media{
+            padding-top: 20px;
+            padding-bottom: 30px;
+        }
+        
+       .media-body
+       {
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           padding-top: 60px;
+           padding-bottom: 50px;
+           padding-left: 20px;
+           padding-right: 20px;
+        font-size: 20px;
+        font-weight: 200;
+        color: white;
+       
+       }
+       .intro
+       {
+           background-color: #0d0447;
+       }
+          
         /* .container-fluid {
             padding: 7% 15%;
         } */
         /* Features Section */
         
         .white-section {
-            background-color: rgb(219, 233, 228);
+            background-color :rgb(245, 164, 66);
         }
         
         #features {
-            position: relative;
+            position:relative;
         }
         
         .feature-title {
-            font-size: 1.5rem;
+            padding-left: 5px;
+            align-items: center;
+            font-size: 3 rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 500;
         }
         
         .feature-box {
@@ -134,7 +160,9 @@
         }
         
         .icon {
-            color: #5abee8;
+            padding-left: 80px;
+            align-items: center;
+            color: #083041;
             margin-bottom: 1rem;
         }
         
